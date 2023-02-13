@@ -376,7 +376,7 @@ public class ConsolaOlimpicos
 
 		String elAtleta = input("Ingrese el nombre del atleta de su interés");
 		Pais elPais = calculadora.buscarPaisDeAtleta(elAtleta);
-		System.out.println(elAtleta + " viene de " + elPais);	
+		System.out.println(elAtleta + " viene de " + elPais.darNombre());	
 	}
 	
 	/**
